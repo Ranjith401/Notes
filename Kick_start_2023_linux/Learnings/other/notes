@@ -1,0 +1,9 @@
+How to Install Sublime Text 3 on Ubuntu 22.04:
+Terminal Commands:
+-> sudo apt update && sudo apt upgrade
+	-> ***Reference: https://linuxhint.com/install-sublime-text3-ubuntu-22-04/
+
+-> Install or update the latest version of the AWS CLI
+	-> https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+
+-> open index.html (to open a .html file)

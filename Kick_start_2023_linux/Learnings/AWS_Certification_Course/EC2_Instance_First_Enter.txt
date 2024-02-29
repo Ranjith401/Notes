@@ -1,0 +1,16 @@
+ranjith@ranjith:~/AWS_Certification_Course$ chmod 0400 EC2Tutorial.pem 
+ranjith@ranjith:~/AWS_Certification_Course$ ssh -i EC2Tutorial.pem ec2-user@43.205.216.219
+   ,     #_
+   ~\_  ####_        Amazon Linux 2023
+  ~~  \_#####\
+  ~~     \###|
+  ~~       \#/ ___   https://aws.amazon.com/linux/amazon-linux-2023
+   ~~       V~' '->
+    ~~~         /
+      ~~._.   _/
+         _/ _/
+       _/m/'
+[ec2-user@ip-172-31-41-102 ~]$ ls
+[ec2-user@ip-172-31-41-102 ~]$ ls
+[ec2-user@ip-172-31-41-102 ~]$ pwd
+/home/ec2-user

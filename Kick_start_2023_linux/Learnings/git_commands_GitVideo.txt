@@ -1,0 +1,20 @@
+0.0   mkdir GitVideo
+0.1   touch index.html
+1.0   git init (starts tracking the changes made(ie: files added, removed etc..) in GitVideo directory)
+2.0   git status
+3.0   git add index.html (file "index.html" will be added to "Staging area")
+3.1   git add. (adds each and every file to Staging area)
+4.0   git commit -m "created a file index.html"
+5.0   git log (shows history of commits made)
+6.0   git checkout <commit-hash> (get "hash" value using "git log" command)
+7.0   git checkout master (Switch to the latest commit, that is on master branch)
+8.0   git branch (lists all the branches)
+          Sample Output:
+          * master -> "*" indicates the "Current" branch we are at, in this case we are on master branch
+          * (HEAD detached at 02bd91b)
+            master -> in this case we are "currently" at a branch called (HEAD detached at 02bd91b)
+8.1   git branch <new-branch-name> (to create a new branch)
+          Eg:
+          git branch crazycolors
+          git checkout crazycolors (to switch to crazycolors branch)
+9.1   git merge crazycolors
