@@ -1,5 +1,0 @@
-Commands:
--> cat flaws_cloudtrail_logs/flaws_cloudtrail00.json |jq -r |  grep "sourceIPAddress" | grep -oE "[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+" | sort | uniq -c | sort -nr | head -n 10 
--> Matching Multiple Strings Using Only One grep => https://www.baeldung.com/linux/grep-matching-multiple-strings
--> paste -d  inputfile1.txt inputfile2.txt > outputfile.txt
--> awk 'NR==FNR{a[i++]=bash};{b[x++]=bash;};{k=x-i};END{for(j=0;j<i;) print a[j++],b[k++]}' inputfile1.txt inputfile2.txt

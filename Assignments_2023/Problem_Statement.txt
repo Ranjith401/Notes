@@ -1,7 +1,0 @@
-Question:
-
-	Write a script in a programming language of your choice to find the Top 10 ‘eventName’ 
-	and ‘sourceIPAddress’ along with their percentages from the sample AWS CloudTrail 
-	logs. Please download the AWS CloudTrail logs from the following link - 
-	http://summitroute.com/downloads/flaws_cloudtrail_logs.tar
-
